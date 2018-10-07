@@ -33,7 +33,7 @@ resource "azurerm_public_ip" "k8s" {
   location                     = "${var.location}"
   resource_group_name          = "${azurerm_kubernetes_cluster.k8s.node_resource_group}"
   public_ip_address_allocation = "static"
-  domain_name_label            = "test-aks-ingress"
+  domain_name_label            = "test-dns-${random_integer.ri.result}"
 
   tags {
     Environment = "Development"
