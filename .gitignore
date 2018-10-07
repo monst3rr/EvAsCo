@@ -1,1 +1,7 @@
 node_modules
+.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!cred.tfvars
+azurek8s
