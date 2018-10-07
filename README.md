@@ -5,10 +5,10 @@ EvAsCo is a sample code to demonstrate infrastructure automation, immutable appl
 
 ### Prerequisites
 - Following softwares are prequisite to successfully run this project. 
--- Docker
--- Kubectl
--- Helm
--- Terraform
+   1. Docker
+   2. Kubectl
+   3. Helm
+   4. Terraform
 - Azure Service role credentials: Configure these credentials in **cluster/cred.tfvars**.
 
 
