@@ -29,7 +29,8 @@ $ ./init.sh
 - Map service ip to a DNS.
 > By default docker hub is being used as docker repository which can be configured in helm chart.
 >Docker image of application which is in directory "app" can be found at [Messages](https://hub.docker.com/r/monst3r/messages/)
-
+#### Diagram
+![Alt text](docs/diagram.jpg?raw=true?)
 
 &nbsp;
 &nbsp;
