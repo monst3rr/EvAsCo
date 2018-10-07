@@ -1,3 +1,4 @@
+![Alt text](docs/project1.gif?raw=true?)
 # EvAsCo(Everything As Code)
 
 EvAsCo is a sample code to demonstrate infrastructure automation, immutable application deployment and versioning using Docker, Kubernetes, Helm and Terraform on Azure Cloud.
